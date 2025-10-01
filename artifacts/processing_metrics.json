@@ -1,0 +1,210 @@
+{
+  "classification_report": {
+    "brute_force": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 50
+    },
+    "data_exfiltration": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 20
+    },
+    "dos_attack": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40
+    },
+    "normal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 300
+    },
+    "port_scan": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 60
+    },
+    "sql_injection": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 30
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 500
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 500
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "dest_is_private",
+      "importance": 0.3213388919830322
+    },
+    {
+      "feature": "is_external_connection",
+      "importance": 0.16744160652160645
+    },
+    {
+      "feature": "is_well_known_port",
+      "importance": 0.15562471747398376
+    },
+    {
+      "feature": "protocol_numeric",
+      "importance": 0.14114338159561157
+    },
+    {
+      "feature": "potential_dos",
+      "importance": 0.13968469202518463
+    },
+    {
+      "feature": "bytes_out",
+      "importance": 0.048116136342287064
+    },
+    {
+      "feature": "is_high_risk_port",
+      "importance": 0.005774976219981909
+    },
+    {
+      "feature": "bytes_in",
+      "importance": 0.0039031037595123053
+    },
+    {
+      "feature": "hour_of_day",
+      "importance": 0.0037160145584493876
+    },
+    {
+      "feature": "dest_ip_hash",
+      "importance": 0.003710493678227067
+    },
+    {
+      "feature": "day_of_week",
+      "importance": 0.0030579455196857452
+    },
+    {
+      "feature": "source_ip_hash",
+      "importance": 0.0022612770553678274
+    },
+    {
+      "feature": "source_is_private",
+      "importance": 0.001817931653931737
+    },
+    {
+      "feature": "dest_port",
+      "importance": 0.0014298195019364357
+    },
+    {
+      "feature": "bytes_ratio",
+      "importance": 0.0007516958867199719
+    },
+    {
+      "feature": "total_bytes",
+      "importance": 0.0001799789461074397
+    },
+    {
+      "feature": "traffic_symmetry",
+      "importance": 4.727390478365123e-05
+    },
+    {
+      "feature": "is_high_volume",
+      "importance": 0.0
+    },
+    {
+      "feature": "potential_xss",
+      "importance": 0.0
+    },
+    {
+      "feature": "potential_sql_injection",
+      "importance": 0.0
+    },
+    {
+      "feature": "suspicious_user_agent",
+      "importance": 0.0
+    },
+    {
+      "feature": "has_failed_attempts",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_download_heavy",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_upload_heavy",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_low_volume",
+      "importance": 0.0
+    },
+    {
+      "feature": "port_category",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_business_hours",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_database_port",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_ssh_port",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_web_port",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_high_port",
+      "importance": 0.0
+    },
+    {
+      "feature": "ip_geolocation_risk",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_weekend",
+      "importance": 0.0
+    },
+    {
+      "feature": "dest_is_internal",
+      "importance": 0.0
+    },
+    {
+      "feature": "source_is_internal",
+      "importance": 0.0
+    },
+    {
+      "feature": "repeated_connections",
+      "importance": 0.0
+    }
+  ],
+  "training_samples": 2000,
+  "validation_samples": 500,
+  "accuracy": 1.0,
+  "classes": [
+    "brute_force",
+    "data_exfiltration",
+    "dos_attack",
+    "normal",
+    "port_scan",
+    "sql_injection"
+  ]
+}

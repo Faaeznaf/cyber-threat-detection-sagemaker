@@ -1,0 +1,10 @@
+boto3>=1.34
+sagemaker>=2.226
+sagemaker-studio-image-build>=0.5
+xgboost>=2.0
+pandas>=2.0
+numpy>=1.25
+scikit-learn>=1.3
+joblib>=1.3
+# Optional local tools
+awscli>=1.32

@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.venv39/
+venv/
+.env/
+.env*/
+
+# Environment variables
+.env
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Lambda deployment packages
+*.zip
+lambda_deployment.zip
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and caches
+*.log
+.cache/
+
+# SageMaker & AWS artifacts (local dev)
+mlruns/
+model/
+output/
+.cache/
+.aws/
+.sagemaker/
+
+# IDE
+.vscode/
+.idea/
